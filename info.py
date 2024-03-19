@@ -46,8 +46,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sweet_toxic_Movie:sweet_toxic_Movie@sweettoxicdevil.citaw4q.mongodb.net/?retryWrites=true&w=majority&appName=SweetToxicDevil")
-DATABASE_NAME = environ.get('DATABASE_NAME', "sweettoxicdevil")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SweetToxicMovie:SweetToxicMovie@sweettoxicmovie.10y1mrr.mongodb.net/?retryWrites=true&w=majority&appName=SweetToxicMovie")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sweettoxicmovie")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
